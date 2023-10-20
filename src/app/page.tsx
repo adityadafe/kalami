@@ -18,6 +18,8 @@ export default function Home() {
           className="w-[500px] h-[400px] lg:px-4 select-none"
         />
       </section>
+      <hr/>
+      <Footer/>
     </>
   )
 }
