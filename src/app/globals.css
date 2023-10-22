@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body{
-  @apply scroll-smooth scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-400 scrollbar-thumb-rounded-md selection:bg-sky-300/50
-
+  @apply scroll-smooth scrollbar-thin scrollbar-track-transparent scrollbar-thumb-transparent scrollbar-thumb-rounded-md selection:bg-sky-300/50 hover:scrollbar-thumb-sky-300 
 }
