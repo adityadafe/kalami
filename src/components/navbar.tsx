@@ -3,7 +3,7 @@ import Button from "./button"
 export default function Navbar() {
 	const { data: session } = useSession()
 	return (
-		<div className="flex items-center w-screen">
+		<div className="flex items-center ">
 			<h1 className="flex-auto w-32 font-black text-zinc-900 tracking-tight leading-none text-center text-[4rem] p-3	flex flex-row justify-center items-center">
 				kalami.
 			</ h1>
