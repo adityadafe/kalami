@@ -9,17 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
     "next": "13.5.6",
     "next-auth": "^4.24.3",
     "react": "^18",
     "react-canvas-draw": "^1.2.1",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tesseract.js": "^5.0.2",
+    "use-react-screenshot": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-canvas-draw": "^1.2.2",
     "@types/react-dom": "^18",
+    "@types/tesseract.js": "^2.0.0",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
